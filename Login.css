@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #191414;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.login-container {
+    width: 400px;
+    background-color: #282828;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.logo img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1DB954;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.login-button:hover {
+    background-color: #1ed760;
+}
+
+.links a {
+    color: #1DB954;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    color: #B3B3B3;
+}
+
+.divider span {
+    background-color: #282828;
+    padding: 0 10px;
+}
+
+.social-login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.facebook-login {
+    background-color: #3b5998;
+    color: white;
+}
+
+.google-login {
+    background-color: #db4437;
+    color: white;
+}
+
+.apple-login {
+    background-color: black;
+    color: white;
+}
+
+.signup {
+    margin-top: 20px;
+}
+
+.signup a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
