@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: rgb(20, 20, 20);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.signup-container {
+    width: 700px;
+    padding: 30px 180px;
+    border-radius: 10px;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.logo img {
+    padding: auto;
+    margin: 0;
+    width: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-top: 45px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #f1f1f1;
+    background-color: rgb(247, 244, 244);
+    font-size: 14px;
+}
+
+.usephone {
+    display: flex;
+}
+
+.usephone input {
+    margin-right: 5px;
+}
+
+.usephone {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.usephone a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+.usephone a:hover {
+    text-decoration: underline;
+}
+
+.next-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1DB954;
+    border: none;
+    border-radius: 50px;
+    color: rgb(18, 18, 18);
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.next-button:hover {
+    background-color: #1ed760;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #f2f1f1; /* Adjust line color */
+    margin: 0 10px; /* Adjust spacing around "or" */
+}
+
+.divider span {
+    padding: 0 10px; /* Space around "or" */
+    margin-bottom: 20px;
+}
+
+.social-login button {
+    padding: 10px 30px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    border: 1px solid #818080;
+    border-radius: 50px;
+    margin-bottom: 5px; 
+} 
+
+.social-login button i {
+    margin-right: 10px;
+}
+
+.social-login button:hover {
+    border-color: #fff;
+}
+.social-login-card{
+    padding: 10px 30px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    border: 1px solid #818080;
+    border-radius: 50px;
+    margin-bottom: 300px;
+    width: 240px;
+}
+
+.links a {
+    color: #1DB954;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.divider span {
+    background: transparent;
+    padding: 0 10px;
+}
+
+.login {
+    margin-top: 20px;
+}
+
+.login {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+.login :hover {
+    text-decoration: underline;
+}

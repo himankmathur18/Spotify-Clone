@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css">                       
+    <title>Spotify Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <img class="logo-img" src="i10.jpeg" alt="">
+        </div>
+        <h1>Log in to Spotify</h1>
+
+        <form action="/login" method="POST">
+                <div class="social-login">
+                    <div>
+                        <button class="social-login-card"><i class="fa-brands fa-google"></i> Continue with Google </button>
+                        <button class="social-login-card"><i class="fa-brands fa-facebook"></i> Continue with Facebook </button>
+                        <button class="social-login-card"><i class="fa-brands fa-apple"></i> Continue with Apple </button>
+                    </div>
+                </div>
+            
+            <div class="input-group">
+                <label for="email">Email or username</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <button type="submit" class="login-button">Log In</button>
+        </form>
+
+        <div class="links">
+            <a href="#">Forgot your password?</a>
+        </div>
+
+        <div class="divider">
+            <span>OR</span>
+        </div>
+
+        <div class="signup">
+            <p>Don't have an account? <a href="Signup.html"><button class="login-btn"> Signup for Spotify</button></a></p>
+        </div>
+    </div>
+</body>
+</html>
